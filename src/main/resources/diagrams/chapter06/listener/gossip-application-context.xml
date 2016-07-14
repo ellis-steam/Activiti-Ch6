@@ -31,7 +31,7 @@
 		<property name="transactionManager" ref="transactionManager" />
 		<property name="databaseSchemaUpdate" value="true" />
 		<property name="deploymentResources"
-			value="classpath*:chapter06/listener/processEventListener.bpmn20.xml" />
+			value="classpath*:diagrams/chapter06/listener/processEventListener.bpmn20.xml" />
 		<property name="history" value="full" />
 		<property name="jobExecutorActivate" value="false" />
 	</bean>
